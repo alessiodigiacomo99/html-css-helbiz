@@ -215,7 +215,6 @@ section{
 /* /main */
 #site_footer{
   background-color: black;
-  height: 700px;
 }
 
 #site_footer .row{
@@ -283,9 +282,30 @@ section{
   }
 
   .background_steps .col-lg-4 img{
-    height: 60vh;
+    height: 250px;
   }
 
-  .info .smart{
+  .models{
+    padding-top: 80px;
   }
+
+  .iphone, .city{
+    padding-top: 30px;
+    margin: 30px 0 0 0;
+  }
+
+  .layover{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  #site_footer > div:nth-child(1) > div > ul.col-lg-3.col-sm-12 > li, div.condizioni > ul > li.col-lg-4.col-sm-12, .social{
+    text-align: center;
+  }
+
+  #site_footer > div:nth-child(2) > div > div.condizioni > ul > li:nth-child(2){
+    text-align: right;
+  }
+
 }
