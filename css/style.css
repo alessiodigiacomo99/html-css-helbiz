@@ -18,6 +18,7 @@ li{
 .logo{
   width: 100px;
   margin-top: 5px;
+  padding-left: 20px;
 }
 
 .menu_list ul li a, .langs_list ul li a{
@@ -63,6 +64,7 @@ li{
   transform: translate(-50%, -50%);
   text-align: center;
 }
+
 .hero_img h1{
   text-transform: capitalize;
 }
@@ -86,6 +88,7 @@ section{
 
 .card{
   text-align: center;
+  padding-bottom: 40px;
 }
 
 .card p{
@@ -146,7 +149,7 @@ section{
 .smart .col-lg-4{
   position:absolute;
   top: 50%;
-  right: 10%;
+  right: 5%;
   transform: translateY(-50%);
 }
 
@@ -155,7 +158,7 @@ section{
 }
 
 .smart .col-lg-4 h2{
-  font-size: 40px;
+  font-size: 35px;
 }
 
 .info a{
@@ -164,14 +167,12 @@ section{
 
 .iphone{
   background-color: #3c3c80;
-  margin: 20px 20px 20px 0;
+  margin: 30px 30px 30px 0;
 }
 
 .iphone, .city{
   height: 450px;
   text-align: center;
-  padding-top: 40px;
-  width: 48%;
 }
 
 .iphone img{
@@ -185,8 +186,8 @@ section{
 .city{
   background-image: url("https://www.helbiz.com/_nuxt/img/city.7c8c928.jpg");
   background-size: cover;
-  float: right;
-  margin: 20px 0 20px 20px;
+  margin: 30px 0 30px 30px;
+
 }
 
 .family{
@@ -198,7 +199,8 @@ section{
 }
 
 .rettangolo{
-  width: 400px;
+  min-width: 250px;
+  width: 40%;
   height: 200px;
   background-color: white;
   position: absolute;
@@ -209,4 +211,81 @@ section{
   line-height: 200px;
   font-size: 30px;
   font-weight: 600;
+}
+/* /main */
+#site_footer{
+  background-color: black;
+  height: 700px;
+}
+
+#site_footer .row{
+  padding-top: 80px;
+  width: 80%;
+  margin: auto;
+}
+
+#site_footer ul.col-lg-3 li:first-child a{
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#site_footer ul.col-lg-3 li:not(:first-child) a{
+  opacity: 0.8;
+}
+
+#site_footer ul li a{
+  color: white;
+  line-height: 30px;
+  text-transform: capitalize;
+}
+
+#site_footer ul {
+  margin: 30px 0;
+}
+
+#site_footer hr{
+  background-color: white;
+  width: 80%;
+  margin: auto;
+}
+
+.social ul li{
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.social ul li a i{
+  font-size: 20px;
+}
+
+.condizioni ul li{
+  display: inline-block;
+  padding-right: 30px;
+}
+
+.download_on img{
+  width: 150px;
+}
+
+.download_on .col-lg-6:first-child{
+  text-align: right;
+}
+/* /footer */
+
+@media screen and (max-width: 768px){
+  .menu_list, .langs_list{
+    display: none;
+  }
+
+  #main_content .card img{
+    width: 100%;
+  }
+
+  .background_steps .col-lg-4 img{
+    height: 60vh;
+  }
+
+  .info .smart{
+  }
 }
