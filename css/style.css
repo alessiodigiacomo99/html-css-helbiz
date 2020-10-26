@@ -74,3 +74,139 @@ li{
 .hero_img img{
   width: 150px;
 }
+
+/* /header */
+section{
+  margin: 50px 0;
+}
+
+.models{
+  padding: 80px;
+}
+
+.card{
+  text-align: center;
+}
+
+.card p{
+  padding: 20px 0;
+}
+
+#main_content .helbizgo_logo, #main_content .helbizbike_logo{
+  width: 150px;
+}
+
+#main_content .helbizgo, #main_content .helbizbike{
+  width: 300px;
+  display: block;
+  margin: auto;
+}
+
+.steps{
+  height: 600px;
+  position: relative;
+}
+
+.background_steps{
+  height: 400px;
+  background-image: url("https://www.helbiz.com/_nuxt/img/index-banner.1f6fd0a.jpg");
+  background-size: cover;
+}
+
+.background_steps .row{
+  padding-top: 200px;
+}
+
+.background_steps .col-lg-4{
+  text-align: center;
+}
+
+.background_steps .col-lg-4:not(:nth-child(2)){
+  padding-top: 300px;
+}
+
+.background_steps .col-lg-4 img{
+  height: 400px;
+}
+
+.info{
+  color: white;
+}
+
+.smart, .iphone, .city{
+  position: relative;
+}
+
+.smart{
+  background-size: cover;
+  height: 500px;
+  background-image: url("https://www.helbiz.com/_nuxt/img/scooter.f0a0397.jpg");
+}
+
+.smart .col-lg-4{
+  position:absolute;
+  top: 50%;
+  right: 10%;
+  transform: translateY(-50%);
+}
+
+.info p{
+  padding: 20px 0;
+}
+
+.smart .col-lg-4 h2{
+  font-size: 40px;
+}
+
+.info a{
+  color: white;
+}
+
+.iphone{
+  background-color: #3c3c80;
+  margin: 20px 20px 20px 0;
+}
+
+.iphone, .city{
+  height: 450px;
+  text-align: center;
+  padding-top: 40px;
+  width: 48%;
+}
+
+.iphone img{
+  height: 250px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.city{
+  background-image: url("https://www.helbiz.com/_nuxt/img/city.7c8c928.jpg");
+  background-size: cover;
+  float: right;
+  margin: 20px 0 20px 20px;
+}
+
+.family{
+  height: 400px;
+  background-image: url("../img/938415.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.rettangolo{
+  width: 400px;
+  height: 200px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+  font-weight: 600;
+}
